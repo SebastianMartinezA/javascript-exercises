@@ -1,5 +1,5 @@
-const getTheTitles = function() {
-
+const getTheTitles = function(books) {
+    return books.map(books => books.title);
 };
 
 module.exports = getTheTitles;
